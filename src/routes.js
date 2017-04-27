@@ -10,6 +10,18 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
   $stateProvider
     .state('app', {
       url: '/',
-      component: 'app'
+      component: 'main',
+      redirectTo:'login'
+    })
+   .state('login',{
+     parent:'app',
+     url:'login',
+    component: 'appLogin'
+    })
+
+    .state('categorias',{
+      parent:'app',
+      url:'categorias',
+      component: 'appCategory'
     });
 }

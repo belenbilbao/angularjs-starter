@@ -1,0 +1,10 @@
+<tr>
+    <td>{{$ctrl.item.id}}</td>
+    <td>{{$ctrl.item.marca}}</td>
+    <td>{{$ctrl.item.modelo}}</td>
+    <td>{{$ctrl.item.precio | currency : $}}</td>
+    <td>
+        <a href="" ng-click="$ctrl.editItem(item.id)">Edit</a>
+        <a href="" ng-click="$ctrl.delete($ctrl.item)">Delete</a>
+    </td>
+</tr>

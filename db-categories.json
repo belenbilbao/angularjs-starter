@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "id": 2,
+      "marca": "Toshhiba",
+      "modelo": "TSH 123t",
+      "precio": 800,
+      "type": "computadora"
+    },
+    {
+      "id": 3,
+      "marca": "Toshhiba",
+      "modelo": "TSH 123t",
+      "precio": 800,
+      "type": "computadora"
+    }
+  ]
+}
