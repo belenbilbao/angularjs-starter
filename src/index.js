@@ -1,5 +1,6 @@
 angular
   .module('app', [
     'main',
-    'ui.router'
+    'ui.router',
+    'ui.bootstrap'
     ]);
