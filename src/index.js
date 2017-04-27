@@ -2,5 +2,5 @@ angular
   .module('app', [
     'main',
     'ui.router',
-    'ui.bootstrap'
+    //'ui.bootstrap'
     ]);
