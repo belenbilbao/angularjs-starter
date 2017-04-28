@@ -2,17 +2,80 @@
   "categories": [
     {
       "id": 2,
-      "marca": "Toshhiba",
-      "modelo": "TSH 123t",
-      "precio": 800,
+      "marca": "Dell",
+      "modelo": "Latitude 6430u",
+      "precio" : 1000,
       "type": "computadora"
     },
     {
       "id": 3,
-      "marca": "Toshhiba",
-      "modelo": "TSH 123t",
-      "precio": 800,
+      "marca": "HP",
+      "modelo": "Pavilo 1234A",
+      "precio" : 800,
+      "type": "celular"
+    },
+    {
+      "id": 4,
+      "marca": "lenovo",
+      "modelo": "T880",
+      "precio" : 750,
+      "type": "celular"
+    },
+    {
+      "id": 5,
+      "marca": "Apple",
+      "modelo": "IMAC 215",
+      "precio" : 1900,
       "type": "computadora"
+    },
+    {
+      "id": 6,
+      "marca": "Toshiba",
+      "modelo": "TSH 123t",
+      "precio" : 800,
+      "type": "celular"
+    },
+    {
+      "id": 7,
+      "marca": "Toshiba",
+      "modelo": "TSH 123t",
+      "precio" : 800,
+      "type": "computadora"
+    },
+    {
+      "id": 8,
+      "marca": "Toshiba",
+      "modelo": "TSH 123t",
+      "precio" : 800,
+      "type": "computadora"
+    },
+    {
+      "id": 9,
+      "marca": "Toshiba",
+      "modelo": "TSH 123t",
+      "precio" : 800,
+      "type": "celular"
+    },
+    {
+      "id": 10,
+      "marca": "Toshiba",
+      "modelo": "TSH 123t",
+      "precio" : 800,
+      "type": "computadora"
+    },
+    {
+      "id":11,
+      "marca": "Toshiba",
+      "modelo": "TSH 123t",
+      "precio" : 800,
+      "type": "celular"
+    },
+    {
+      "id": 12,
+      "marca": "Toshiba",
+      "modelo": "TSH 123t",
+      "precio" : 800,
+      "type": "celular"
     }
   ]
 }

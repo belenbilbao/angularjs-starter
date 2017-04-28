@@ -11,17 +11,23 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     .state('app', {
       url: '/',
       component: 'main',
-      redirectTo:'login'
+      redirectTo: 'login'
     })
-   .state('login',{
-     parent:'app',
-     url:'login',
-    component: 'appLogin'
+    .state('login', {
+      parent: 'app',
+      url: 'login',
+      component: 'appLogin',
+      data: {
+        requiredAuth: false
+      }
+    }).state('test', {
+      parent: 'app',
+      url: 'test',
+      component: 'myContent'
     })
-
-    .state('categorias',{
-      parent:'app',
-      url:'categorias',
+    .state('categorias', {
+      parent: 'app',
+      url: 'categorias',
       component: 'appCategory'
     });
 }

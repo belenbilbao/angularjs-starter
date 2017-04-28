@@ -1,18 +1,26 @@
-List of categories
+ List of categories
 <!--href?-->
 <a href="#" ng-click="$ctrl.filterComputers()">Computadoras</a>
 <a href="#" ng-click="$ctrl.filterSmartphones()">Celulares</a>
 <a href="#" ng-click="$ctrl.notFilter()">All</a>
-<table border="1" >
+<table border="1">
     <thead>
-        <th ng-click="$ctrl.sortData('id')">ID <div ng-class="$ctrl.getSortClass('id')"></div></th>
-        <th ng-click="$ctrl.sortData('marca')">Marca <div ng-class="$ctrl.getSortClass('marca')"></div></th>
-        <th ng-click="$ctrl.sortData('modelo')">Modelo <div ng-class="$ctrl.getSortClass('modelo')"></div></th>
-        <th ng-click="$ctrl.sortData('precio')">Precio<div ng-class="$ctrl.getSortClass('precio')"></div></th>
+        <th ng-click="$ctrl.sortData('id')">ID
+            <div ng-class="$ctrl.getSortClass('id')"></div>
+        </th>
+        <th ng-click="$ctrl.sortData('marca')">Marca
+            <div ng-class="$ctrl.getSortClass('marca')"></div>
+        </th>
+        <th ng-click="$ctrl.sortData('modelo')">Modelo
+            <div ng-class="$ctrl.getSortClass('modelo')"></div>
+        </th>
+        <th ng-click="$ctrl.sortData('precio')">Precio
+            <div ng-class="$ctrl.getSortClass('precio')"></div>
+        </th>
         <th>Opciones</th>
     </thead>
     <tbody>
-       <!-- <app-item ng-repeat="item in $ctrl.categories" 
+        <!-- <app-item ng-repeat="item in $ctrl.categories" 
                 item="item"
                 on-delete = "$ctrl.onDelete()">
 
@@ -24,13 +32,7 @@ List of categories
             <td>{{item.precio | currency : $}}</td>
             <td>
                 <a href="" ng-click="$ctrl.editItem(item.id)">Edit</a>
-                 <a href="" ng-click="$ctrl.deleteItem(item)">Delete</a>
-                 <a href="" sweetalert sweet-options="{{sweet.option}}" 
-                 sweet-confirm-option="{{sweet.confirm}}" 
-                 sweet-cancel-option="{{sweet.cancel}}" 
-                  name="login-submit"
-                   sweet-on-cancel="checkCancel()"
-                    sweet-on-confirm="checkConfirm()"  >Try It</a>
+                <a href="" ng-click="$ctrl.deleteItem(item)">Delete</a>
             </td>
         </tr>
     </tbody>

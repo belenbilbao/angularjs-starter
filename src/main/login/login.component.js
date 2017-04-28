@@ -1,4 +1,4 @@
-function AppLoginUserController($location,UserService ) {
+function AppLoginUserController($location,$state,UserService ) {
     console.log('Running login controller');
     var vm = this;
     vm.user = {};
@@ -10,6 +10,7 @@ function AppLoginUserController($location,UserService ) {
             console.log('este es el resultado' + result.length);
            if (result.length != 0) {
                 console.log('el usuario se encontro');
+                $state.current.data.requiredAuth = true;
                 $location.path('/categorias');
             }
             else {
